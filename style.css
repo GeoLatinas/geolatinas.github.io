@@ -128,7 +128,7 @@ article p {
   /* padding: 30px 10%; */
   max-width: 760px;
   margin: 0 auto;
-  margin-top: 80px;
+  /*margin-top: 80px;*/
   padding: 30px;
   background-color: #fffbca;
 }
@@ -136,6 +136,23 @@ article p {
 .quote p {
   font-family: "Kalam", cursive;
   font-size: 16pt;
+}
+
+#about .column {
+  padding: 10px;
+  padding-top: 40px;
+  /* margin: 50px; */
+  max-width: 100%;
+}
+
+#about img {
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 500px;
+}
+
+#about .container {
+  align-items: center;
 }
 
 .container {
