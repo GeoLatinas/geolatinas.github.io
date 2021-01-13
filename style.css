@@ -5,9 +5,8 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-
 
 /* ------ */
 /* header */
@@ -20,8 +19,8 @@ header {
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 12px 5%;
+  justify-content: center;
+  padding: 15px 10%;
 }
 
 .logo {
@@ -55,7 +54,7 @@ header {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 75vh;
+  height: 100vh;
   text-align: center;
 }
 
@@ -84,17 +83,68 @@ header {
 
 .header .button a {
   text-decoration: none;
-  font-size: 20pt;
+  font-size: 18pt;
+  font-weight: bold;
   /* color: #ffffff; */
-  color: #56b3ba;
+  color: #a172e3;
 }
 
+.header img {
+  max-width: 300px;
+}
 
 /* ---- */
 /* main */
 /* ---- */
 
 article {
+  padding: 50px 10% 100px 10%;
+}
+
+article h2 {
+  color: #574e55;
+  text-align: center;
+  font-size: 35pt;
+  padding: 20px 0% 60px 0%;
+}
+
+article h3 {
+  color: #574e55;
+  text-align: center;
+  font-size: 22pt;
+  padding: 10px 0%;
+}
+
+article p {
+  color: #31292f;
+  font-size: 14pt;
+  line-height: 1.8;
+}
+
+.container {
+  display: flex;
+  align-items: top;
+  justify-content: space-evenly;
+}
+
+#courses {
+  background-color: #f3e4ff;
+}
+
+#courses .column {
+  border: 8px solid #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 50px;
+}
+
+#courses .column p {
+  text-align: center;
+}
+
+#courses i {
+  font-size: 35pt;
+  color: #574e55;
 }
 
 footer {
