@@ -95,6 +95,11 @@ header {
   color: #a172e3;
 }
 
+/* Prevent button to reduce opacity when hover */
+.button:hover {
+  opacity: 1;
+}
+
 .header img {
   max-width: 300px;
 }
