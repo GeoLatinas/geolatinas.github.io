@@ -16,6 +16,9 @@ a:hover {
   opacity: 0.5;
 }
 
+p {
+  margin-bottom: 15px;
+}
 /* ------ */
 /* header */
 /* ------ */
