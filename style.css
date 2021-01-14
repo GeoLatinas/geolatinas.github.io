@@ -10,15 +10,23 @@ body {
 
 a {
   text-decoration: none;
+  font-weight: 600;
+  /* color: #a172e3; */
+  color: #703793;
 }
 
 a:hover {
   opacity: 0.5;
 }
 
-p {
-  margin-bottom: 10px;
-  margin-top: 10px;
+ul {
+  list-style-type: none;
+  margin-left: 2.5em;
+  padding-left: 5px;
+  color: #31292f;
+  font-size: 14pt;
+  line-height: 1.8;
+  margin-top: 20px;
 }
 
 /* ------ */
@@ -49,12 +57,13 @@ header {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  min-width: 850px;
+  min-width: 900px;
 }
 
 .navlinks a {
   color: #ffffff;
   font-size: 16pt;
+  font-weight: normal;
 }
 
 .header {
@@ -114,30 +123,38 @@ header {
 /* ---- */
 
 article {
-  padding: 100px 10% 150px 10%;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
-article h2 {
+article h2, article h2 a{
   color: #574e55;
   text-align: center;
+  font-weight: 700;
   font-size: 35pt;
-  padding: 0px 0% 60px 0%;
+  padding-top: 0px;
+  padding-bottom: 60px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
-article h3 {
+article h3, article h3 a {
   color: #574e55;
   text-align: center;
+  font-weight: 700;
   font-size: 22pt;
-  padding: 10px 0%;
+  padding-top: 0px;
+  padding-bottom: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 article p {
   color: #31292f;
   font-size: 14pt;
   line-height: 1.8;
-}
-article a {
-  color: #a172e3;
 }
 
 .quote {
@@ -152,6 +169,27 @@ article a {
 .quote p {
   font-family: "Kalam", cursive;
   font-size: 16pt;
+}
+
+.container {
+  display: flex;
+  align-items: top;
+  justify-content: space-evenly;
+}
+
+.column {
+  padding: 20px;
+  padding-top: 40px;
+  /* margin: 50px; */
+  max-width: 600px;
+}
+
+ul.fa-bullet li {
+  margin-bottom: 5px;
+}
+
+ul.fa-bullet a {
+  margin-left: 10px;
 }
 
 #about .column {
@@ -171,12 +209,6 @@ article a {
   align-items: center;
 }
 
-.container {
-  display: flex;
-  align-items: top;
-  justify-content: space-evenly;
-}
-
 #courses {
   background-color: #f3e4ff;
 }
@@ -184,9 +216,6 @@ article a {
 #courses .column {
   border: 8px solid #ffffff;
   border-radius: 5px;
-  padding: 20px;
-  padding-top: 40px;
-  /* margin: 50px; */
   max-width: 480px;
 }
 
@@ -196,10 +225,6 @@ article a {
 
 #courses i {
   font-size: 35pt;
-  color: #574e55;
-}
-
-#courses a {
   color: #574e55;
 }
 
