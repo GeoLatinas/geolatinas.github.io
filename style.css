@@ -19,7 +19,6 @@ a:hover {
   opacity: 0.5;
 }
 
-
 ul {
   list-style-type: none;
   margin-left: 2.5em;
@@ -228,7 +227,6 @@ ul.fa-bullet a {
   font-size: 35pt;
   color: #574e55;
 }
-
 
 footer {
   background-color: #a172e3;
