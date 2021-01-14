@@ -17,8 +17,10 @@ a:hover {
 }
 
 p {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
+
 /* ------ */
 /* header */
 /* ------ */
@@ -135,7 +137,7 @@ article p {
   line-height: 1.8;
 }
 article a {
-  color: #574e55;
+  color: #a172e3;
 }
 
 .quote {
@@ -194,6 +196,10 @@ article a {
 
 #courses i {
   font-size: 35pt;
+  color: #574e55;
+}
+
+#courses a {
   color: #574e55;
 }
 
