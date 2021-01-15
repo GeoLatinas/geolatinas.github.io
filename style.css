@@ -155,6 +155,7 @@ article p {
   color: #31292f;
   font-size: 14pt;
   line-height: 1.8;
+  margin: 0px 20px 20px 20px;
 }
 
 .quote {
@@ -193,12 +194,6 @@ ul.fa-bullet a {
   margin-left: 10px;
 }
 
-/* #about .column {
-  padding: 10px;
-  padding-top: 40px;
-  max-width: 100%;
-} */
-
 #about img {
   border-radius: 4px;
   padding: 0px;
@@ -209,24 +204,24 @@ ul.fa-bullet a {
   align-items: center;
 }
 
-#courses {
+.color-pink {
   background-color: #f3e4ff;
 }
 
-#courses .column {
+.courses-box {
   border: 8px solid #ffffff;
   border-radius: 5px;
   max-width: 480px;
+  text-align: center;
+  max-height: 500px;
 }
 
-/* #courses .column p {
-  text-align: center;
-} */
-
-#courses i {
+.courses-fa {
   font-size: 35pt;
   color: #574e55;
+  padding-bottom: 10px;
 }
+
 
 footer {
   background-color: #a172e3;
