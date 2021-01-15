@@ -125,7 +125,7 @@ article {
 }
 
 article h2, article h2 a{
-  color: #574e55;
+  color: #31292f;
   text-align: center;
   font-weight: 700;
   font-size: 35pt;
@@ -147,7 +147,7 @@ article h3, article h3 a {
 }
 
 article p {
-  color: #31292f;
+  color: #574e55;
   font-size: 14pt;
   line-height: 1.8;
   margin: 0px 20px 20px 20px;
@@ -173,12 +173,14 @@ article p {
   flex-flow: row wrap;
   justify-content: space-evenly;
   margin-left: 0px;
+  padding-bottom: 20px;
 }
 
 .column {
   padding: 0px;
   padding-top: 40px;
   max-width: 100%;
+  position: relative;
 }
 
 ul.fa-bullet li {
@@ -221,6 +223,32 @@ ul.fa-bullet a {
   max-width: 50%;
   min-width: 400px;
 }
+
+.achievements-box {
+  /* border: 8px solid #ffffff; */
+  border-radius: 5px;
+  max-width: 300px;
+  text-align: center;
+  max-height: auto;
+}
+
+#achievements .container p{
+  font-size: 12pt;
+  max-width: 100%;
+}
+.img-box {
+  flex: 1;
+  max-width: 100%;
+  /* max-height: 50%; */
+  /* height: 100px; */
+  border-radius: 10%;
+  margin-right: 0px;
+ }
+
+ #achievements .container {
+   margin-left: 30px;
+   align-items: top;
+ }
 
 footer {
   background-color: #a172e3;
