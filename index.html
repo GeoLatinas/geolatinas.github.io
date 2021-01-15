@@ -21,17 +21,17 @@
 </head>
 
 <body>
-  <header>
-    <nav class="navbar">
-      <ul class="navlinks">
-        <li><a href="#about">About</a></li>
-        <li><a href="#courses">Our Courses</a></li>
-        <li><a href="#start">Getting Started</a></li>
-        <li><a href="#achievements">Achievements</a></li>
-        <li><a href="#events">Coming Events</a></li>
-      </ul>
-    </nav>
+  <nav class="navbar">
+    <ul class="navlinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#courses">Our Courses</a></li>
+      <li><a href="#start">Getting Started</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#events">Coming Events</a></li>
+    </ul>
+  </nav>
 
+  <header>
     <div class="header">
       <img src="images/geolatinas-coding-group.png" alt="Geolatinas Coding Group" />
       <a class="button" href="https://geolatinas.weebly.com/get-involved.html">
@@ -91,17 +91,14 @@
           </div>
         </div>
       </div>
-      <p>
-
-      </p>
     </article>
 
-    <article id="courses">
+    <article class="color-pink" id="courses">
       <h2>Our Courses</h2>
 
       <div class="container">
-        <div class="column">
-          <p><i class="fab fa-python"></i></p>
+        <div class="column courses-box">
+          <p><i class="fab courses-fa fa-python"></i></p>
           <h3>Intro to Python</h3>
           <p>
             Elit libero accusantium possimus enim a voluptatibus. Iusto sequi
@@ -109,8 +106,8 @@
             accusantium tenetur quo rerum possimus? Quas quia neque odio
           </p>
         </div>
-        <div class="column">
-          <p><i class="fas fa-project-diagram"></i></p>
+        <div class="column courses-box">
+          <p><i class="fas courses-fa fa-project-diagram"></i></p>
           <h3>
             <a href="https://sainosmichelle.github.io/elements.html">Machine Learning</a>
           </h3>
@@ -125,8 +122,8 @@
     <article id="start">
       <h2>Getting Started</h2>
       <div class="container">
-        <div class="column">
-          <h3>Install Anaconda</h3>
+        <div class="column-start">
+          <h3>Setup your System</h3>
           <p>
             In order to start doing our courses you need to <b>install a Python distribution</b>.
             We recommend using <a href="https://www.anaconda.com/products/individual">Anaconda</a>.
@@ -137,7 +134,7 @@
             </a>.
           </p>
         </div>
-        <div class="column">
+        <div class="column-start">
           <h3>New to Python?</h3>
           <p>
             If you don’t have much experience with Python, <b>don’t worry!</b>.
@@ -160,7 +157,7 @@
       </div>
     </article>
 
-    <article id="achievements">
+    <article class="color-pink" id="achievements">
       <h2>Achievements</h2>
       <p>
         Lorem doloremque perspiciatis molestiae quo aliquid. Ipsum quibusdam
@@ -181,9 +178,26 @@
     </article>
   </main>
 
+
   <footer>
-    <p>Copyright 2021, Geolatinas.</p>
+    <div align="center">
+      <p>
+        Except where otherwise noted, this work by
+        <a xmlns:cc="https://creativecommons.org/ns#" href="/" property="cc:attributionName" rel="cc:attributionURL">
+          GeoLatinas Coding Group
+        </a>
+        is licensed under a
+        <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+          Creative Commons Attribution 4.0 International License </a>.
+        <br />
+        Source code available at
+        <a href="https://github.com/geolatinas/geolatinas.github.io/tree/main">
+          geolatinas/geolatinas.github.io
+        </a>.
+      </p>
+    </div>
   </footer>
+
 </body>
 
 </html>
