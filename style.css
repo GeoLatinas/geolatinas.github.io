@@ -175,7 +175,7 @@ article p {
 .container {
   display: flex;
   align-items: top;
-  flex-flow: wrap;
+  flex-flow: row wrap;
   justify-content: space-evenly;
   margin-left: 0px;
 }
@@ -222,6 +222,10 @@ ul.fa-bullet a {
   padding-bottom: 10px;
 }
 
+.column-start {
+  max-width: 50%;
+  
+}
 
 footer {
   background-color: #a172e3;
