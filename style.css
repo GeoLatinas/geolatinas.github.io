@@ -174,14 +174,15 @@ article p {
 .container {
   display: flex;
   align-items: top;
+  flex-flow: wrap;
   justify-content: space-evenly;
+  margin-left: 0px;
 }
 
 .column {
-  padding: 20px;
+  padding: 0px;
   padding-top: 40px;
-  /* margin: 50px; */
-  max-width: 600px;
+  max-width: 100%;
 }
 
 ul.fa-bullet li {
@@ -192,17 +193,16 @@ ul.fa-bullet a {
   margin-left: 10px;
 }
 
-#about .column {
+/* #about .column {
   padding: 10px;
   padding-top: 40px;
-  /* margin: 50px; */
   max-width: 100%;
-}
+} */
 
 #about img {
   border-radius: 4px;
-  padding: 5px;
-  max-width: 500px;
+  padding: 0px;
+  max-width: 600px;
 }
 
 #about .container {
@@ -219,9 +219,9 @@ ul.fa-bullet a {
   max-width: 480px;
 }
 
-#courses .column p {
+/* #courses .column p {
   text-align: center;
-}
+} */
 
 #courses i {
   font-size: 35pt;
