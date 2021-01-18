@@ -1,6 +1,4 @@
-HTML=index.html
-CSS=style.css
-PRETTIER_ARGS=$(HTML) $(CSS)
+PRETTIER_ARGS=*.html *.css **/*.html **/*.css
 
 all: check
 
@@ -11,8 +9,8 @@ help:
 	@echo "  check     check code style (prettier)"
 	@echo ""
 
-check: $(PRETTIER_ARGS)
-	prettier --check $<
+check:
+	prettier --check $(PRETTIER_ARGS)
 
-format: $(PRETTIER_ARGS)
-	prettier --write $<
+format:
+	prettier --write $(PRETTIER_ARGS)
