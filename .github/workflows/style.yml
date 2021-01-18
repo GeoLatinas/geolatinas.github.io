@@ -24,7 +24,8 @@ jobs:
         with:
           persist-credentials: false
 
+      - name: Install dependencies
+        run: npm install --save-dev --save-exact prettier
+
       - name: Prettify code
-        uses: creyD/prettier_action@v3.1
-        with:
-          dry: True
+        run: make check
