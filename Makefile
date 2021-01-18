@@ -1,6 +1,6 @@
-INDEX=index.html
+HTML=index.html
 CSS=style.css
-PRETTIER_ARGS=$(INDEX) $(CSS)
+PRETTIER_ARGS=$(HTML) $(CSS)
 
 all: check
 
