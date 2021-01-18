@@ -41,6 +41,20 @@ and for autoformat:
 make format
 ```
 
+### How to install prettier?
+
+#### Ubuntu
+
+```
+sudo npm install --global prettier
+```
+
+#### Manjaro and Arch
+
+```
+sudo pacman -S prettier
+```
+
 ## License
 
 This work is licensed under a
