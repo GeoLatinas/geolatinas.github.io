@@ -122,7 +122,6 @@ header {
   max-width: 300px;
 }
 
-
 /* ---- */
 /* main */
 /* ---- */
@@ -134,7 +133,8 @@ article {
   padding-right: 10%;
 }
 
-article h2, article h2 a{
+article h2,
+article h2 a {
   color: #31292f;
   text-align: center;
   font-weight: 700;
@@ -145,7 +145,8 @@ article h2, article h2 a{
   padding-right: 0px;
 }
 
-article h3, article h3 a {
+article h3,
+article h3 a {
   color: #574e55;
   text-align: center;
   font-weight: 700;
@@ -242,7 +243,7 @@ ul.fa-bullet a {
   max-height: auto;
 }
 
-#achievements .container p{
+#achievements .container p {
   font-size: 12pt;
   max-width: 100%;
 }
@@ -253,12 +254,12 @@ ul.fa-bullet a {
   /* height: 100px; */
   border-radius: 10%;
   margin-right: 0px;
- }
+}
 
- #achievements .container {
-   margin-left: 30px;
-   align-items: top;
- }
+#achievements .container {
+  margin-left: 30px;
+  align-items: top;
+}
 
 footer {
   background-color: #a172e3;
@@ -275,7 +276,6 @@ footer a {
 }
 
 @media screen and (max-device-width: 900px) {
-
   .navbar {
     height: 90px;
   }
