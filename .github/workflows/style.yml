@@ -28,4 +28,4 @@ jobs:
           persist-credentials: false
 
       - name: Prettify code
-        run: make check
+        run: npx prettier --check *.html *.css **/*.html **/**.css
