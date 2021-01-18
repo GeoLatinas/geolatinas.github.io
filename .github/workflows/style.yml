@@ -20,12 +20,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Install dependencies
-        run: npm install --save-dev --save-exact prettier
+        run: sudo npm install --global prettier
 
       - name: Checkout
         uses: actions/checkout@v2
         with:
           persist-credentials: false
 
-      - name: Prettify code
-        run: npx prettier --check *.html *.css **/*.html **/**.css
+      - name: Check code style through prettier
+        run: make check
