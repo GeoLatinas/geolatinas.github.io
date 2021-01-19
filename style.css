@@ -185,7 +185,7 @@ article p {
   font-size: 16pt;
 }
 
-.container {
+.container-custom {
   display: flex;
   align-items: top;
   flex-flow: row wrap;
@@ -250,7 +250,7 @@ ul.fa-bullet a {
   max-height: auto;
 }
 
-#achievements .container p {
+#achievements .container-custom p {
   font-size: 12pt;
   max-width: 100%;
 }
@@ -263,7 +263,7 @@ ul.fa-bullet a {
   margin-right: 0px;
 }
 
-#achievements .container {
+#achievements .container-custom {
   margin-left: 30px;
   align-items: top;
 }
@@ -291,7 +291,7 @@ footer a {
     display: none;
   }
 
-  .container {
+  .container-custom {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
