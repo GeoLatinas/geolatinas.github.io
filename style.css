@@ -100,7 +100,7 @@ header {
   line-height: 1.5em;
 }
 
-.header button {
+.join-button button {
   border: 2px #ffffff solid;
   border-radius: 10px;
   background-color: #a172e3;
@@ -115,13 +115,18 @@ header {
   cursor: pointer;
 }
 
-.header button:hover {
+.join-button button:hover {
   background-color: #ffffff;
   color: #a172e3;
 }
 
+.join-button p {
+  padding: 0;
+  margin: 0;
+}
+
 /* Prevent button to reduce opacity when hover */
-.button:hover {
+.join-button:hover {
   opacity: 1;
 }
 
