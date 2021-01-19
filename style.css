@@ -288,14 +288,6 @@ footer a {
 }
 
 @media screen and (max-device-width: 900px) {
-  .navbar {
-    height: 90px;
-  }
-
-  .navbar li {
-    display: none;
-  }
-
   .container-custom {
     flex-direction: column;
     align-items: center;
