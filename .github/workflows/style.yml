@@ -1,0 +1,31 @@
+# Style checks with GitHub Actions
+#
+# NOTE: Pin actions to a specific commit to avoid having the authentication
+# token stolen if the Action is compromised. See the comments and links here:
+# https://github.com/pypa/gh-action-pypi-publish/issues/27
+#
+name: check-style
+
+# Only build PRs and the master branch. Pushes to branches will only be built
+# when a PR is opened.
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  prettier:
+    name: prettier
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install dependencies
+        run: sudo npm install --global prettier
+
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Check code style through prettier
+        run: make check
