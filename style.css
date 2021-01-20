@@ -129,7 +129,8 @@ article {
   padding-right: 10%;
 }
 
-article h2, article h2 a{
+article h2,
+article h2 a {
   color: #574e55;
   text-align: center;
   font-weight: 700;
@@ -140,7 +141,8 @@ article h2, article h2 a{
   padding-right: 0px;
 }
 
-article h3, article h3 a {
+article h3,
+article h3 a {
   color: #574e55;
   text-align: center;
   font-weight: 700;
