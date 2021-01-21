@@ -90,6 +90,12 @@ header {
   padding-bottom: 20px;
   background: #a172e3;
 }
+.logo-navbar {
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: 50px;
+  max-width: 60px;
+}
 
 nav ul {
   padding-top: 30px;
@@ -145,6 +151,9 @@ nav a:hover {
 }
 
 @media (max-width: 768px) {
+  .logo-navbar {
+    width: 0%;
+  }
   nav ul {
     padding-top: 0px;
     padding-bottom: 20px;
