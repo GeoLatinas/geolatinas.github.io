@@ -32,67 +32,48 @@
   </head>
 
   <body>
-    <!-- nav bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"
-          ><img
-            class="logo-header"
-            src="images/geolatinas-logo.svg"
-            alt="Geolatinas Coding Group"
-        /></a>
+
+
+    <!-- Header -->
+    <header class="d-flex flex-column">
+      <nav class="navbar navbar-expand-md w-100 navbar-dark align-items-start">
+        <!-- Burger button -->
         <button
           class="navbar-toggler"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarBurgerMenu"
-          aria-controls="navbarBurgerMenu"
-          aria-expanded="true"
+          data-toggle="collapse"
+          data-target="#navbarMenu"
+          aria-controls="navbarMenu"
+          aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="navbar-collapse collapse show" id="navbarBurgerMenu">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#about"
-                >About</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#start">Getting Started</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#achievements">Achievements</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#events">Upcoming Events</a>
-            </li>
-          </ul>
+        <!-- Navlinks -->
+        <div class="container">
+          <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav nav-fill w-100">
+              <li class="nav-item"><a href="#">Home</a></li>
+              <li class="nav-item"><a href="#about">About</a></li>
+              <li class="nav-item"><a href="#courses">Our Courses</a></li>
+              <li class="nav-item"><a href="#start">Getting Started</a></li>
+              <li class="nav-item"><a href="#achievements">Achievements</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
 
-    <!-- Header -->
-    <header>
       <div
-        class="conteiner-fluid"
-        style="background-color: #a172e3; height: auto"
+        class="cover d-flex flex-column justify-content-center align-items-center h-100"
       >
-        <div class="container text-center">
-          <img
-            class="logo"
-            src="images/coding-group-logo.svg"
-            alt="Geolatinas Coding Group"
-          />
-          <h1 class="h1-header">GeoLatinas Coding Group</h1>
-          <a
-            class="btn btn-style"
-            href="https://geolatinas.weebly.com/get-involved.html"
-            role="button"
-            >Join Our Community</a
-          >
-        </div>
+        <img src="images/coding-group-logo.svg" alt="Geolatinas Coding Group" />
+        <h1>Coding Group</h1>
+        <a
+          class="button-join"
+          href="https://geolatinas.weebly.com/get-involved.html"
+          role="button"
+          >Join Our Community</a
+        >
       </div>
     </header>
 
