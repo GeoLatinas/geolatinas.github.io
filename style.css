@@ -85,10 +85,21 @@ li {
 }
 
 /* Header style */
+.navlinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  width: 900px;
+  padding: 0px;
+  margin: 0px;
+}
+
 .logo {
-  width: 100%;
-  max-width: 500px;
-  padding: 20px 20px 20px 20px;
+  width: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: 50px;
 }
 
 .h1-header {
