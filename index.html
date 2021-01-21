@@ -7,8 +7,15 @@
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
 
-    <!-- Main CSS style -->
+    <!-- CSS styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
+
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -23,14 +30,45 @@
   </head>
 
   <body>
-    <nav class="navbar">
-      <ul class="navlinks">
-        <li><a href="#about">About</a></li>
-        <li><a href="#courses">Our Courses</a></li>
-        <li><a href="#start">Getting Started</a></li>
-        <li><a href="#achievements">Achievements</a></li>
-        <li><a href="#events">Coming Events</a></li>
-      </ul>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            class="logo-header"
+            src="images/geolatinas-logo.svg"
+            alt="Geolatinas Coding Group"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarBurgerMenu"
+          aria-controls="navbarBurgerMenu"
+          aria-expanded="true"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse show" id="navbarBurgerMenu">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#start">Getting Started</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#achievements">Achievements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#events">Upcoming Events</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
     <header>
@@ -38,7 +76,7 @@
         <img src="images/coding-group-logo.svg" alt="Geolatinas Coding Group" />
         <h1>Coding Group</h1>
         <a
-          class="button"
+          class="join-button"
           href="https://geolatinas.weebly.com/get-involved.html"
         >
           <button>
@@ -56,16 +94,13 @@
           Programming is a vital skill to have as a geoscientist. As we delve
           into sophisticated research questions, we need specialized tools to
           analyze and manage huge amounts of data to help solve problems and
-          explore ideas. In addition, the culture of academia is one centered
-          around being self-taught, and although that may be standard for some
-          academics, it does not necessarily apply to everyone. It is especially
-          difficult to try to learn a new skill in a language not native to
-          one’s own.
+          explore ideas. It is especially difficult to try to learn a new skill
+          in a language not native to one’s own.
         </p>
         <p>
           The <b>GeoLatinas Coding Group</b> initiative was born out of the idea
-          to provide this widely-needed skill tool set to the members of the
-          Latinas in Geoscience organization. In this way,
+          to provide this widely-needed skill to the members of our community.
+          In this way,
           <b
             >we provide a welcoming environment to learn to code for all
             GeoLatinas</b
@@ -74,30 +109,28 @@
           week (in Spanish) where we go over programming in Python.
         </p>
         <p>
-          If you wish <b> to know more</b> about Coding Group initiative and
-          GeoLatinas community, we invite you go to
+          If you wish <b> to know more</b> about the Coding Group initiative and
+          GeoLatinas, we invite you go to
           <a href="https://geolatinas.weebly.com/blog/july-27th-2020"
             >GeoLatinas blog</a
-          >. and <a href="https://geolatinas.weebly.com/">GeoLatina website</a>.
+          >. and
+          <a href="https://geolatinas.weebly.com/">GeoLatinas website</a>.
         </p>
-        <div class="container">
+        <div class="container-custom">
           <div class="column">
             <img src="images/members.jpg" />
           </div>
           <div class="column">
             <div class="quote">
               <p>
-                Monday, 6 a.m. here, 9 a.m over there, and 7 p.m on the other
-                side of the globe. The cup of coffee is ready, also the mate and
-                the tea. In the background, I can hear the news and the pandemic
+                "Monday, 6am here, 9am over there, and 7pm on the other side of
+                the globe. The cup of coffee is ready, also the mate and the
+                tea. In the background, I can hear the news and the pandemic
                 goes on. Yet, we log in…3, 2, 1. Connected! Here we are,
                 together again in the GeoLatinas Coding Group, like every Monday
                 since five months ago. Two hours committed to learn new
                 open-source tools, moving forward into the inclusion of
-                underrepresented groups in Geoscience. A time to share our
-                experiences in disciplines ranging from geodynamics to remote
-                sensing, including potential fields geophysics, petrophysics,
-                geochemistry and seismology.
+                underrepresented groups in Geoscience."
               </p>
             </div>
           </div>
@@ -113,14 +146,13 @@
           <b>member of GeoLatinas community</b>, you have access to
           <b>extra material</b>.
         </p>
-        <div class="container">
+        <div class="container-custom">
           <div class="column courses-box">
             <p><i class="fab courses-fa fa-python"></i></p>
             <h3>Intro to Python</h3>
             <p>
-              Elit libero accusantium possimus enim a voluptatibus. Iusto sequi
-              ad quo eum porro. Illo eos ea et enim veniam quam. Odio
-              accusantium tenetur quo rerum possimus? Quas quia neque odio
+              Getting started with Python, installation, exploration of
+              libraries for data analysis and visualization.
             </p>
           </div>
           <div class="column courses-box">
@@ -140,7 +172,7 @@
 
       <article id="start">
         <h2>Getting Started</h2>
-        <div class="container">
+        <div class="container-custom">
           <div class="column-start">
             <h3>Setup your System</h3>
             <p>
@@ -190,7 +222,7 @@
           The <b>GeoLatinas Coding Group</b> has participated in different
           conferences and initiatives in the programming community:
         </p>
-        <div class="container">
+        <div class="container-custom">
           <div class="column achievements-box">
             <img class="img-box" src="images/agu-2020.jpg" />
             <p>
@@ -234,7 +266,7 @@
       </article>
 
       <article id="events">
-        <h2>Coming Events</h2>
+        <h2>Upcoming Events</h2>
         <p>Coming soon...</p>
       </article>
     </main>
@@ -265,5 +297,17 @@
         </p>
       </div>
     </footer>
+
+    <!-- Bootstrap Bundle -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
