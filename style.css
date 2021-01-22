@@ -209,6 +209,12 @@ nav a:hover {
   font-size: 16pt;
 }
 
+@media (max-width: 576px) {
+  .quote {
+    margin: 10px;
+  }
+}
+
 /* Our courses section style */
 .box {
   border: 5px solid white;
