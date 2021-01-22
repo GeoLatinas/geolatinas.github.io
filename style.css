@@ -1,3 +1,4 @@
+/* -------------- */
 /* General styles */
 /* -------------- */
 html {
@@ -84,15 +85,19 @@ li {
   padding-top: 20px;
 }
 
+/* ----------------- */
 /* Header and navbar */
+/* ----------------- */
 header {
-  height: auto;
+  height: 100vh;
   padding-bottom: 20px;
   background: #a172e3;
 }
 
 nav ul {
   padding-top: 30px;
+  padding-bottom: 0px;
+  margin: 0px;
 }
 
 nav a {
@@ -144,14 +149,25 @@ nav a:hover {
   opacity: 1;
 }
 
-@media (max-width: 768px) {
+/* Prevent container from nav to get reduced on mid size displays */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .nav-container {
+    max-width: 930px;
+  }
+}
+
+/* Change style of header on mid size displays */
+@media (max-width: 767.98px) {
   nav ul {
     padding-top: 0px;
-    padding-bottom: 20px;
   }
 
   nav li {
     padding: 5px;
+  }
+
+  .nav-container {
+    margin: 0px;
   }
 
   .cover img {
@@ -168,6 +184,17 @@ nav a:hover {
     font-size: 1em;
   }
 }
+
+/* Reduce width of header img on some landscape displays */
+@media (max-height: 800px) {
+  .cover img {
+    max-width: 300px;
+  }
+}
+
+/* -------- */
+/* Sections */
+/* -------- */
 
 /* About section style */
 .quote {
