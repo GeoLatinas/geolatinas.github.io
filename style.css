@@ -234,16 +234,18 @@ h3 i {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* Footer style */
+/* ------ */
+/* Footer */
+/* ------ */
 footer {
   background-color: #a172e3;
   padding: 1em 1.5em;
   text-align: center;
-  font-size: 5pt;
-  line-height: 1.5em;
 }
 
 footer a,
 footer p {
   color: #ffffff;
+  font-size: 12pt;
+  line-height: 1.4em;
 }
