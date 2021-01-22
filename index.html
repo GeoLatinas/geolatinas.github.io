@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
@@ -22,106 +23,96 @@
       href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Montserrat:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <!-- Font awesome -->
+
+    <!--  -->
     <link rel="stylesheet" href="/assets/fontawesome/css/all.css" />
 
-    <title>GeoLatinas Coding Group</title>
-    <link rel="shortcut icon" href="images/favicon.png" />
+    <!-- Title -->
+    <title>Coding Group</title>
   </head>
 
   <body>
-    <!-- nav bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"
-          ><img
-            class="logo-header"
-            src="images/geolatinas-logo.svg"
-            alt="Geolatinas Coding Group"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarBurgerMenu"
-          aria-controls="navbarBurgerMenu"
-          aria-expanded="true"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-collapse collapse show" id="navbarBurgerMenu">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#about"
-                >About</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#start">Getting Started</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#achievements">Achievements</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#events">Upcoming Events</a>
-            </li>
-          </ul>
+    <!-- Header -->
+    <header class="d-flex flex-column">
+      <nav class="navbar navbar-expand-md w-100 navbar-dark align-items-start">
+        <!-- Navlinks -->
+        <div class="container nav-container">
+          <!-- Burger button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarMenu"
+            aria-controls="navbarMenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav nav-fill w-100">
+              <li class="nav-item"><a href="#about">About</a></li>
+              <li class="nav-item"><a href="#courses">Our Courses</a></li>
+              <li class="nav-item"><a href="#start">Getting Started</a></li>
+              <li class="nav-item"><a href="#achievements">Achievements</a></li>
+              <li class="nav-item"><a href="#achievements">Events</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
 
-    <header>
-      <div class="header">
+      <div
+        class="cover d-flex flex-column justify-content-center align-items-center h-100"
+      >
         <img src="images/coding-group-logo.svg" alt="Geolatinas Coding Group" />
         <h1>Coding Group</h1>
         <a
-          class="join-button"
+          class="button-join"
           href="https://geolatinas.weebly.com/get-involved.html"
+          role="button"
+          >Join Our Community</a
         >
-          <button>
-            <p>Join Our Community</p>
-          </button>
-        </a>
       </div>
     </header>
 
     <main>
+      <!-- About-->
       <article id="about">
-        <h2>About</h2>
+        <div class="container">
+          <h2>About</h2>
 
-        <p>
-          Programming is a vital skill to have as a geoscientist. As we delve
-          into sophisticated research questions, we need specialized tools to
-          analyze and manage huge amounts of data to help solve problems and
-          explore ideas. It is especially difficult to try to learn a new skill
-          in a language not native to one’s own.
-        </p>
-        <p>
-          The <b>GeoLatinas Coding Group</b> initiative was born out of the idea
-          to provide this widely-needed skill to the members of our community.
-          In this way,
-          <b
-            >we provide a welcoming environment to learn to code for all
-            GeoLatinas</b
-          >, regardless of one’s level of comfort with either English or
-          Spanish. To maintain consistency, we provide two coding sessions a
-          week (in Spanish) where we go over programming in Python.
-        </p>
-        <p>
-          If you wish <b> to know more</b> about the Coding Group initiative and
-          GeoLatinas, we invite you go to
-          <a href="https://geolatinas.weebly.com/blog/july-27th-2020"
-            >GeoLatinas blog</a
-          >. and
-          <a href="https://geolatinas.weebly.com/">GeoLatinas website</a>.
-        </p>
-        <div class="container-custom">
-          <div class="column">
-            <img src="images/members.jpg" />
-          </div>
-          <div class="column">
-            <div class="quote">
+          <p>
+            Programming is a vital skill to have as a geoscientist. As we delve
+            into sophisticated research questions, we need specialized tools to
+            analyze and manage huge amounts of data to help solve problems and
+            explore ideas. It is especially difficult to try to learn a new
+            skill in a language not native to one’s own.
+          </p>
+          <p>
+            The <b>GeoLatinas Coding Group</b> initiative was born out of the
+            idea to provide this widely-needed skill to the members of our
+            community. In this way,
+            <b
+              >we provide a welcoming environment to learn to code for all
+              GeoLatinas</b
+            >, regardless of one’s level of comfort with either English or
+            Spanish. To maintain consistency, we provide two coding sessions a
+            week (in Spanish) where we go over programming in Python.
+          </p>
+          <p>
+            If you wish <b>to know more</b> about the Coding Group initiative
+            and GeoLatinas, we invite you go to
+            <a href="https://geolatinas.weebly.com/blog/july-27th-2020">
+              GeoLatinas blog</a
+            >
+            and <a href="https://geolatinas.weebly.com/">GeoLatinas website</a>.
+          </p>
+
+          <div class="row align-items-center">
+            <div class="col-lg col-padding">
+              <img src="images/members.jpg" style="width: 100%" />
+            </div>
+            <div class="col-lg quote col-padding">
               <p>
                 "Monday, 6am here, 9am over there, and 7pm on the other side of
                 the globe. The cup of coffee is ready, also the mate and the
@@ -137,162 +128,208 @@
         </div>
       </article>
 
-      <article class="color-pink" id="courses">
-        <h2>Our Courses</h2>
+      <!-- Our courses -->
+      <article style="background-color: #f3e4ff" id="courses">
+        <div class="container">
+          <h2>Our Courses</h2>
 
-        <p>
-          Group members provide <b>different programming courses</b> useful for
-          our professional career. It you are
-          <b>member of GeoLatinas community</b>, you have access to
-          <b>extra material</b>.
-        </p>
-        <div class="container-custom">
-          <div class="column courses-box">
-            <p><i class="fab courses-fa fa-python"></i></p>
-            <h3>Intro to Python</h3>
-            <p>
-              Getting started with Python, installation, exploration of
-              libraries for data analysis and visualization.
-            </p>
-          </div>
-          <div class="column courses-box">
-            <p><i class="fas courses-fa fa-project-diagram"></i></p>
-            <h3>
-              <a href="https://sainosmichelle.github.io/elements.html"
-                >Machine Learning</a
-              >
-            </h3>
-            <p>
-              Introduction to data science to solve challenges in the areas of
-              earth science, environmental science, etc using Python.
-            </p>
+          <p>
+            Group members provide <b>different programming courses</b> useful
+            for our professional career. It you are
+            <b>member of GeoLatinas community</b>, you have access to
+            <b>extra material</b>.
+          </p>
+          <div class="row text-center justify-content-around">
+            <div class="col-lg-5 col-md-6 col-padding">
+              <div class="card box">
+                <div class="card-body">
+                  <a class="" href="">
+                    <h3><i class="fab fa-python"></i></h3>
+                    <h3>Intro to Python</h3>
+                    <p class="card-text">
+                      Getting started with Python, installation, exploration of
+                      libraries for data analysis and visualization.
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-6 col-padding">
+              <div class="card box">
+                <div class="card-body">
+                  <a
+                    class=""
+                    href="https://sainosmichelle.github.io/elements.html"
+                  >
+                    <h3><i class="fas fa-project-diagram"></i></h3>
+                    <h3>Intro to Data Science</h3>
+                    <p class="card-text">
+                      Introduction to data science to solve challenges in the
+                      areas of earth science, environmental science, etc using
+                      Python.
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </article>
 
-      <article id="start">
-        <h2>Getting Started</h2>
-        <div class="container-custom">
-          <div class="column-start">
-            <h3>Setup your System</h3>
-            <p>
-              In order to start doing our courses you need to
-              <b>install a Python distribution</b>. We recommend using
-              <a href="https://www.anaconda.com/products/individual">Anaconda</a
-              >. You can find detailed instructions on how to install it on any
-              operating system in the
-              <a href="https://carpentries.github.io/workshop-template/#python">
-                Software Carpentry setup instructions </a
-              >.
-            </p>
-          </div>
-          <div class="column-start">
-            <h3>New to Python?</h3>
-            <p>
-              If you don’t have much experience with Python,
-              <b>don’t worry!</b>. A great place to start learning Python for
-              scientific computation and much more is
-              <a href="https://carpentries.github.io/workshop-template/#python"
-                >Software Carpentry</a
-              >. We recommend starting with these two lessons (also available in
-              Spanish):
-            </p>
-            <ul class="fa-bullet">
-              <li>
-                <i class="fas fa-desktop"></i>
+      <!-- Getting stated section -->
+      <article style="background-color: white" id="started">
+        <div class="container">
+          <h2>Getting Started</h2>
+
+          <div class="row align-items-between align-items-top">
+            <div class="col-md col-padding">
+              <h3>Setup your System</h3>
+              <p>
+                In order to start doing our courses you need to
+                <b>install a Python distribution</b>. We recommend using
+                <a href="https://www.anaconda.com/products/individual"
+                  >Anaconda</a
+                >. You can find detailed instructions on how to install it on
+                any operating system in the
                 <a
-                  href="https://swcarpentry.github.io/python-novice-inflammation/"
-                  >Programming with Python
-                </a>
-              </li>
-              <li>
-                <i class="fas fa-desktop"></i>
-                <a href="https://swcarpentry.github.io/python-novice-gapminder/"
-                  >Plotting and Programming in Python</a
+                  href="https://carpentries.github.io/workshop-template/#python"
                 >
-              </li>
-            </ul>
+                  Software Carpentry setup instructions</a
+                >.
+              </p>
+            </div>
+            <div class="col-md col-padding">
+              <h3>New to Python?</h3>
+              <p>
+                If you don’t have much experience with Python,
+                <b>don’t worry!</b>. A great place to start learning Python for
+                scientific computation and much more is
+                <a
+                  href="https://carpentries.github.io/workshop-template/#python"
+                >
+                  Software Carpentry</a
+                >. We recommend starting with these two lessons (also available
+                in Spanish):
+              </p>
+              <ul>
+                <li>
+                  <i class="fas fa-desktop"></i>
+                  <a
+                    href="https://swcarpentry.github.io/python-novice-inflammation/"
+                    style="margin-left: 15px"
+                  >
+                    Programming with Python
+                  </a>
+                </li>
+                <li>
+                  <i class="fas fa-desktop"></i>
+                  <a
+                    href="https://swcarpentry.github.io/python-novice-gapminder/"
+                    style="margin-left: 15px"
+                  >
+                    Plotting and Programming in Python
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </article>
 
-      <article class="color-pink" id="achievements">
-        <h2>Achievements</h2>
-        <p>
-          The <b>GeoLatinas Coding Group</b> has participated in different
-          conferences and initiatives in the programming community:
-        </p>
-        <div class="container-custom">
-          <div class="column achievements-box">
-            <img class="img-box" src="images/agu-2020.jpg" />
-            <p>
-              <b>
-                GeoLatinas Digital Literacy Toolkit: A Diverse Community
-                Developing Coding Skills for the Open Source World
-              </b>
-              , AGU 2020.
-            </p>
-          </div>
+      <!-- Achievement -->
+      <article style="background-color: #f3e4ff" id="achievement">
+        <div class="container">
+          <h2>Achievements</h2>
 
-          <div class="column achievements-box">
-            <img class="img-box" src="images/ieee.jpg" />
-            <p>
-              <b>
-                Third place in "Women in Geoscience #Inspire Us" Photo Contest
-                2020 </b
-              >, IEEE Geoscience and Remote Sensing Society.
-            </p>
-          </div>
+          <p>
+            The <b>GeoLatinas Coding Group</b> has participated in different
+            conferences and initiatives in the programming community:
+          </p>
 
-          <div class="column achievements-box">
-            <img class="img-box" src="images/transform.jpg" />
-            <p>
-              <b>Presentation of GeoLatinas Coding Group</b>, Transform 2020,
-              Software Underground.
-            </p>
-          </div>
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="card achievement-card">
+                <img class="card-img-top" src="images/agu-2020.jpg" />
+                <div class="card-body">
+                  <p class="card-text">
+                    <b>
+                      GeoLatinas Digital Literacy Toolkit: A Diverse Community
+                      Developing Coding Skills for the Open Source World
+                    </b>
+                    , AGU 2020.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card achievement-card">
+                <img class="card-img-top" src="images/ieee.jpg" />
+                <div class="card-body">
+                  <p class="card-text">
+                    <b>
+                      Third place in "Women in Geoscience #Inspire Us" Photo
+                      Contest 2020 </b
+                    >, IEEE Geoscience and Remote Sensing Society.
+                  </p>
+                </div>
+              </div>
+            </div>
 
-          <div class="column achievements-box">
-            <img class="img-box" src="images/GeoHackeo_slides.png" />
-            <p>
-              <b>
-                #GeoHackeo, the GeoLatinas hackathon - Testing our Digital
-                Literacy toolkit
-              </b>
-              , AGU 2020.
-            </p>
+            <div class="col-lg-3">
+              <div class="card achievement-card">
+                <img class="card-img-top" src="images/transform.jpg" />
+                <div class="card-body">
+                  <p class="card-text">
+                    <b>Presentation of GeoLatinas Coding Group</b>, Transform
+                    2020, Software Underground.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3">
+              <div class="card achievement-card">
+                <img class="card-img-top" src="images/GeoHackeo_slides.png" />
+                <div class="card-body">
+                  <p class="card-text">
+                    <b
+                      >#GeoHackeo, the GeoLatinas hackathon - Testing our
+                      Digital Literacy toolkit
+                    </b>
+                    , AGU 2020.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </article>
 
-      <article id="events">
-        <h2>Upcoming Events</h2>
-        <p>Coming soon...</p>
+      <!-- Upcoming events section -->
+      <article style="background-color: white" id="events">
+        <div class="container">
+          <h2>Upcoming Events</h2>
+
+          <p>Coming soon...</p>
+        </div>
       </article>
     </main>
 
     <footer>
-      <div align="center">
+      <div class="container">
         <p>
-          Except where otherwise noted, this work by
-          <a
-            xmlns:cc="https://creativecommons.org/ns#"
-            href="/"
-            property="cc:attributionName"
-            rel="cc:attributionURL"
-          >
-            GeoLatinas Coding Group
-          </a>
-          is licensed under a
-          <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">
-            Creative Commons Attribution 4.0 International License </a
+          <b>© 2021 GeoLatinas Coding Group • </b>
+          Except were noted, this work is licensed
+          <a rel="license" href="https://creativecommons.org/licenses/by/4.0/"
+            >CC-BY 4.0</a
           >.
-          <br />
+        </p>
+        <p>
           Source code available at
           <a
             href="https://github.com/geolatinas/geolatinas.github.io/tree/main"
           >
-            geolatinas/geolatinas.github.io </a
+            geolatinas/geolatinas.github.io</a
           >.
         </p>
       </div>
