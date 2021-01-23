@@ -85,6 +85,13 @@ li {
   padding-top: 20px;
 }
 
+/* Reduce size of headers on very small screens */
+@media (max-width: 575.98px) {
+  article h2 {
+    font-size: 24pt;
+  }
+}
+
 /* ----------------- */
 /* Header and navbar */
 /* ----------------- */
