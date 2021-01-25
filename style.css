@@ -25,7 +25,7 @@ h3 {
 }
 
 article {
-  padding: 50px 0px 50px 0px;
+  padding: 120px 0px 120px 0px;
 }
 
 article h2,
@@ -83,6 +83,13 @@ li {
 .col-padding {
   padding-bottom: 20px;
   padding-top: 20px;
+}
+
+/* Reduce size of headers on very small screens */
+@media (max-width: 575.98px) {
+  article h2 {
+    font-size: 24pt;
+  }
 }
 
 /* ----------------- */
@@ -246,6 +253,6 @@ footer {
 footer a,
 footer p {
   color: #ffffff;
-  font-size: 12pt;
+  font-size: 10pt;
   line-height: 1.4em;
 }
