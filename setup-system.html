@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+
+    <!-- CSS styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--  -->
+    <link rel="stylesheet" href="/assets/fontawesome/css/all.css" />
+
+    <!-- Title -->
+    <title>Coding Group</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header style="height: 100px">
+      <nav class="navbar navbar-expand-md w-100 navbar-dark align-items-start">
+        <!-- Navlinks -->
+        <div class="container nav-container">
+          <!-- Burger button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarMenu"
+            aria-controls="navbarMenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav nav-fill w-100">
+              <li class="nav-item"><a href="/">Codding Group</a></li>
+              <li class="nav-item">
+                <a href="#installing">Installing Python</a>
+              </li>
+              <li class="nav-item">
+                <a href="#git">Setting up Git and Github</a>
+              </li>
+              <li class="nav-item"><a href="#colab">Google Colab</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- <div class="cover d-flex flex-column justify-content-center align-items-center">
+        <h1>Setup your System</h1>
+      </div> -->
+    </header>
+
+    <main>
+      <!-- Getting stated section -->
+      <article style="background-color: white" id="started">
+        <div class="container">
+          <h2>Setup your System</h2>
+
+          <p>
+            Here you will find material to setup your Python distribution and
+            useful tools for programming...
+          </p>
+
+          <div class="container" style="padding-top: 50px" id="installing">
+            <h3><i class="fas fa-rocket"></i> Installing Python</h3>
+            <p>
+              We recommend using
+              <a href="https://www.anaconda.com/products/individual">Anaconda</a
+              >. You can find detailed instructions on how to install it on any
+              operating system in
+              <a href="https://carpentries.github.io/workshop-template/#python">
+                Software Carpentry setup instructions</a
+              >.
+            </p>
+
+            <p>
+              In addition,
+              <a href="https://www.youtube.com/watch?v=C4OPn58BLaU"
+                >in this video
+              </a>
+              you can learn how to download and set up your data science
+              environment.
+            </p>
+          </div>
+
+          <div class="container" style="padding-top: 50px" id="git">
+            <h3>
+              <i class="fas fa-code-branch"></i> Setting up Git and Github
+            </h3>
+            <p>
+              <a href="">Git</a> and <a href="">Github</a>
+              are useful tools when you are coding. Git is open source
+              distributed version control system designed to handle community
+              projects with speed and efficiency. GitHub is a hosting for
+              software development and version control using Git.
+            </p>
+
+            <p>To learn haw to use these tools,you can visit:</p>
+            <ul>
+              <li>
+                <i class="fas fa-desktop"></i>
+                <a href="https://teloexplicocongatitos.com/poster/tlecg04">
+                  What is and how a repository is used? (Spanish)
+                </a>
+              </li>
+              <li>
+                <i class="fas fa-desktop"></i>
+                <a href="https://www.youtube.com/watch?v=ZRrzSAz9uOo"
+                  >Intro to Open Source, Git and GitHub by WWC
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="container" style="padding-top: 50px" id="colab">
+            <h3><i class="fas fa-laptop-code"></i>Google Colab</h3>
+            <p>
+              In some of our courses we use Google Colab. Here we leave you some
+              links that you can learn how to use it:
+            </p>
+            <ul>
+              <li>
+                <i class="fas fa-desktop"></i>
+                <a href="https://www.youtube.com/watch?v=mNTqIw-Oy44">
+                  How to Link Google Colab & Google Drive by WWC</a
+                >
+              </li>
+              <li>
+                <i class="fas fa-desktop"></i>
+                <a href="https://www.youtube.com/watch?v=tI-vLBGvJu8"
+                  >Open source data and Google Colab by WWC
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>
+          <b>© 2021 GeoLatinas Coding Group • </b>
+          Except were noted, this work is licensed
+          <a rel="license" href="https://creativecommons.org/licenses/by/4.0/"
+            >CC-BY 4.0</a
+          >.
+        </p>
+        <p>
+          Source code available at
+          <a
+            href="https://github.com/geolatinas/geolatinas.github.io/tree/main"
+          >
+            geolatinas/geolatinas.github.io</a
+          >.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap Bundle -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
