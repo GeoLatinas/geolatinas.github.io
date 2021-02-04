@@ -24,6 +24,11 @@ h3 {
   padding-right: 0px;
 }
 
+h4 {
+  color: #31292f;
+  text-align: center;
+}
+
 article {
   padding: 120px 0px 120px 0px;
 }
@@ -66,14 +71,13 @@ p {
   padding: 0px;
 }
 
-.fas,
-.fab {
-  color: #574e55;
-}
-
 ul {
   list-style-type: none;
-  margin: 20px 20px 0px 0px;
+  margin-top: 2em;
+  margin-bottom: 0px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 0;
 }
 
 li {
@@ -229,7 +233,7 @@ nav a:hover {
   height: 100%;
 }
 
-h3 i {
+#courses h3 i {
   font-size: 1.8em;
 }
 
