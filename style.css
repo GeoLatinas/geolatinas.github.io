@@ -13,37 +13,46 @@ body {
 }
 
 h1,
+h1 a,
 h2,
-h3 {
+h2 a,
+h3,
+h3 a {
   color: #31292f;
   text-align: center;
-  font-weight: 700;
-  padding-top: 0px;
-  padding-bottom: 20px;
-  padding-left: 0px;
-  padding-right: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
-article {
-  padding: 120px 0px 120px 0px;
+h1,
+h1 a {
+  font-weight: 700;
+  font-size: 38pt;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  line-height: 1.2em;
 }
 
-article h2,
-article h2 a {
-  color: #31292f;
-  text-align: center;
-  font-weight: 700;
-  font-size: 35pt;
+h2,
+h2 a {
+  font-weight: 600;
+  font-size: 25pt;
+  padding-top: 40px;
   padding-bottom: 30px;
+  line-height: 1.2em;
 }
 
-article h3,
-article h3 a {
-  color: #31292f;
-  text-align: center;
-  font-weight: 700;
-  font-size: 22pt;
+h3,
+h3 a {
+  font-weight: 500;
+  font-size: 20pt;
+  padding-top: 20px;
   padding-bottom: 10px;
+  line-height: 1.2em;
+}
+
+section {
+  padding-bottom: 100px;
 }
 
 a {
@@ -64,11 +73,7 @@ p {
   line-height: 1.8;
   margin: 0px;
   padding: 0px;
-}
-
-.fas,
-.fab {
-  color: #574e55;
+  margin-bottom: 1.5em;
 }
 
 ul {
@@ -78,18 +83,6 @@ ul {
 
 li {
   margin-bottom: 1em;
-}
-
-.col-padding {
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-
-/* Reduce size of headers on very small screens */
-@media (max-width: 575.98px) {
-  article h2 {
-    font-size: 24pt;
-  }
 }
 
 /* ----------------- */
@@ -132,11 +125,12 @@ nav a:hover {
 
 .cover h1 {
   color: #ffffff;
-  font-size: 3.8em;
+  font-size: 45pt;
   font-weight: bold;
   border: none;
   margin-top: 20px;
   margin-bottom: 20px;
+  padding: 0px;
   line-height: 1em;
 }
 
@@ -203,7 +197,6 @@ nav a:hover {
 /* Sections */
 /* -------- */
 
-/* About section style */
 .quote {
   max-width: 760px;
   margin: 0 auto;
@@ -223,14 +216,18 @@ nav a:hover {
 }
 
 /* Our courses section style */
-.box {
+.course {
+  padding-bottom: 30px;
+}
+
+.course .card {
   border: 5px solid white;
   background-color: #f3e4ff;
   height: 100%;
 }
 
-h3 i {
-  font-size: 1.8em;
+.course i {
+  font-size: 1.6em;
 }
 
 /* Achievement section style */
@@ -239,6 +236,13 @@ h3 i {
   border: none;
   margin-top: 30px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Reduce size of headers on very small screens */
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 33px;
+  }
 }
 
 /* ------ */
